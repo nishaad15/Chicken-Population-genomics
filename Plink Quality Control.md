@@ -10,7 +10,7 @@ This section includes conversion of VCFs to PLINK format, filtering SNPs and ind
 2. **Apply filtering: MAF ≥ 0.05, mind ≤ 0.1**  
 3. **Perform LD pruning (r² threshold = 0.2)**  
 4. **Remove indels and retain only A/C/G/T SNPs**
-5. **Rename the .fam file for standardizing rhe population names and Individual IDs**
+5. **Rename the .fam file for standardizing the population names and Individual IDs**
 ---
 
 ```bash
