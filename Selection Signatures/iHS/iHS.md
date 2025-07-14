@@ -61,7 +61,7 @@ do
         vcf_file="${pop}_chr${chr}.vcf.gz"
         out_file="${pop}_chr${chr}_ihs"
 
-        selscan --ihs --vcf "$vcf_file" –pmap --out "$out_file"
+        selscan --ihs --vcf "$vcf_file" --pmap --out "$out_file"
     done
 done
 ```
