@@ -1,6 +1,11 @@
 #  Population-wise Phasing via Beagle and Selscan Pipeline
 
 This section includes isolating individual populations from extracted SNPs, converting to VCF, phasing using Beagle, splitting by chromosome, and running iHS-based selection scans using selscan.
+Reuiurements:
+Beagle.jar file
+selscan installed
+.norm file 
+tabix and bgzip
 
 ---
 
